@@ -9,12 +9,12 @@ var number=document.querySelector("#num");
 but.addEventListener('click', myFunction);
 function myFunction(){
 	var text;
-	if(0<=number.value<=10){
+	if(0<=number.value && number.value <=10){
 text="entered value ok!";
 
 	}
 	else {
 		text="wrong value entered. Please try again!";
 	}
-	document.querySelector("#demo").innerHTML=number.value;
+	document.querySelector("#demo").innerHTML=text;
 }
