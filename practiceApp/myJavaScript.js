@@ -25,4 +25,8 @@ var c=[1,2,"hi, there"]; //array (can be )
 var d={firstName: "jagmeet", lastName: "Gurm"}; //object
 document.querySelector("#demo").innerHTML=c[2]; //shuld print string
 document.querySelector("#demo").innerHTML=d.firstName; //shld print jagmeet
-
+var x=secondFunction(3,4);
+function secondFunction(a, b){
+	return a+b;//returning the addition of two values passed
+}
+document.querySelector("#demo").innerHTML=x;
