@@ -41,10 +41,15 @@ result.innerHTML=car.series;
 result.innerHTML=car["model"];
 
 //
+
+//now lets make it global
 thirdFunction();
 function thirdFunction(){
 	var resName="zne"; //local variable 
-	document.querySelector("#demo").innerHTML=typeof resName; //local access
+	resLastName="gurm";
+	//document.querySelector("#demo").innerHTML=typeof resLastName; //local access
 }
-//outside accessing local variable
-result.innerHTML=typeof resName;
+//outside accessing local variable, not accessible 
+//global becomes  without use of keyword var
+result.innerHTML=typeof resLastName;
+
