@@ -68,5 +68,31 @@ var posThree=stringOne.search("gurm"); //same as indexOf
 
 //string extraction
 //will extract the word gurm as its first index position and upto position is passed
+// using slice
 var extract=stringOne.slice(pos, pos+4);
 result.innerHTML=extract;
+
+//using substring method
+var extractTwo=stringOne.substring(pos+5, pos+7); //should print is
+result.innerHTML=extractTwo;
+
+//substr , two parameters it take, first is start index, 2nd is lenghth
+
+var extractThree=stringOne.substr(pos+5, 2 );
+result.innerHTML=extractThree;
+
+//replace a part of string  and then retursn the new complete string
+var replaceString=stringOne.replace("gurm", "singh");
+result.innerHTML=replaceString;
+
+//extracting CHARACTERS
+//using charAt
+var extractChar=stringOne.charAt(4); //returns the char at the stringOne
+result.innerHTML=extractChar;
+
+//converting string into array
+//will use the split method for it
+//splitting at ' ', ie space
+
+var splitString=stringOne.split(' ');
+result.innerHTML=splitString[1]; //should print gurm
