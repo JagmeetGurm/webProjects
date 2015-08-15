@@ -14,7 +14,7 @@ text="entered value ok!";
 
 	}
 	else {
-		text="wrong value entered. Please try again!";
-	}
-	document.querySelector("#demo").innerHTML=text;
+		text="wrong value entered. Please try again!" ;
+	}//number added to a string gets treated as a string
+	document.querySelector("#demo").innerHTML=text+23;
 }
