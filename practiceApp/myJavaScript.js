@@ -1,3 +1,5 @@
+//For the whole exercise, w3schools website has been used: http://www.w3schools.com/js
+
 /*using getElementId first 
 
 document.getElementById("demo").innerHTML="Hi into JavaScript! "*/
@@ -96,3 +98,13 @@ result.innerHTML=extractChar;
 
 var splitString=stringOne.split(' ');
 result.innerHTML=splitString[1]; //should print gurm
+
+//nubmer mehtod to convert varibal to number
+var newVariable="200";
+//lets make a nubmer 200
+result.innerHTML=Number(newVariable) + 100; //the ans shd be 300
+
+//math mehtods
+var highInteger=Math.ceil(4.2);//5
+result.innerHTML=highInteger;
+  result.innerHTML=Math.floor(4.8); //4
