@@ -52,4 +52,21 @@ function thirdFunction(){
 //outside accessing local variable, not accessible 
 //global becomes  without use of keyword var
 result.innerHTML=typeof resLastName;
+//string as a string , as a object
+var myCar="ven"; //typeof myCar is string
+var mySecondCar=new String("vento");  // typeof is object
+//== checks equal value
+//===checks equal value and equal type as well
 
+var stringOne="jagmeet gurm is the name of jagmeet";
+var pos=stringOne.indexOf("gurm"); //will return the index where gurm is found the first time.
+result.innerHTML=pos;
+var posTwo=stringOne.lastIndexOf("jagmeet");//will return the last occurence of string jagmeet
+result.innerHTML=posTwo;
+
+var posThree=stringOne.search("gurm"); //same as indexOf
+
+//string extraction
+//will extract the word gurm as its first index position and upto position is passed
+var extract=stringOne.slice(pos, pos+4);
+result.innerHTML=extract;
