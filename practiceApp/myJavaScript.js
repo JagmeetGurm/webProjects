@@ -39,3 +39,12 @@ var car={name: "vne", //object properties
 result.innerHTML=car.series;
 //another way of accessing object properties
 result.innerHTML=car["model"];
+
+//
+thirdFunction();
+function thirdFunction(){
+	var resName="zne"; //local variable 
+	document.querySelector("#demo").innerHTML=typeof resName; //local access
+}
+//outside accessing local variable
+result.innerHTML=typeof resName;
