@@ -25,8 +25,17 @@ var c=[1,2,"hi, there"]; //array (can be )
 var d={firstName: "jagmeet", lastName: "Gurm"}; //object
 document.querySelector("#demo").innerHTML=c[2]; //shuld print string
 document.querySelector("#demo").innerHTML=d.firstName; //shld print jagmeet
-var x=secondFunction(3,4);
+var x=secondFunction(3,4.3);
 function secondFunction(a, b){
 	return a+b;//returning the addition of two values passed
 }
-document.querySelector("#demo").innerHTML=x;
+var result=document.querySelector("#demo");
+result.innerHTML=x;
+//object car
+var car={name: "vne", //object properties
+ series:"100", 
+ model: 1999};
+//accessing boject properties
+result.innerHTML=car.series;
+//another way of accessing object properties
+result.innerHTML=car["model"];
