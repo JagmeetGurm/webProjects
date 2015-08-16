@@ -110,7 +110,7 @@ result.innerHTML=highInteger;
   result.innerHTML=Math.floor(4.8); //4
 
   //array 
-  var motor=["hero",
+  motor=["hero",
   "bajaj",
   "tata",
   34 //different data type 
@@ -120,13 +120,19 @@ result.innerHTML=highInteger;
 //adding elemnts to array
 motor.push("yamaha").
 //now accessing it
-result.innerHTML=motor[4]; //
+//result.innerHTML=motor[4]; //
 
 //looping through the array and printing elements in bullet
 
 // loop through an array
-
+myFunction4();
+function myFunction4(){
+var i;
+	var text="<ul>";
 for(i=0; i<motor.length;i++){
-	text=text+motor[i];
-	//result.innerHTML=text;
+	text=text+"<li>"+motor[i]+ "</li>";
+	//
+}
+text+="</ul>";
+result.innerHTML=text;
 }
