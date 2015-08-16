@@ -165,6 +165,9 @@ result.innerHTML=middleName[middleName.length-1];
 middleName.pop();
 result.innerHTML=middleName[middleName.length-1];
 
-
-
+//numerical sort
+var nums=[3,6,2,1,9];
+//lets sort the numbers
+nums.sort(function(a, b){return (a-b);});
+result.innerHTML=nums;
 
