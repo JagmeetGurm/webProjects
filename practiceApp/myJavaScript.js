@@ -157,5 +157,14 @@ result.innerHTML=middleName[3];
 result.innerHTML=middleName.valueOf();
 //another way of converting array to string
 result.innerHTML=middleName.toString();
+//pushing and popping
+//pushing=adding element at eend
+middleName.push("yo");
+result.innerHTML=middleName[middleName.length-1];
+//popping=removing last element out of array
+middleName.pop();
+result.innerHTML=middleName[middleName.length-1];
+
+
 
 
