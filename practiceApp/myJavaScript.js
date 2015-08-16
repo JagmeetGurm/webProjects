@@ -145,3 +145,17 @@ for(i=0; i<carTwo.length;i++){
 text2+="</ul>";
 result.innerHTML=text2;
 }
+//another way of declaring array
+var middleName=[];
+middleName[0]="singh";
+middleName[1]="jsg";
+middleName[2]="kumar";
+middleName.push("king");
+result.innerHTML=middleName[3];
+
+//array to string conversion
+result.innerHTML=middleName.valueOf();
+//another way of converting array to string
+result.innerHTML=middleName.toString();
+
+
