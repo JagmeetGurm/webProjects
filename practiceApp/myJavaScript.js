@@ -5,11 +5,11 @@
 document.getElementById("demo").innerHTML="Hi into JavaScript! "*/
 
 /* using query selector */
-document.querySelector("#demo").innerHTML="Hi again!"
+var result=document.querySelector("#demo");//.innerHTML="Hi again!"
 var but=document.getElementById("buttonOne");
 var number=document.querySelector("#num");
-but.addEventListener('click', myFunction);
-function myFunction(){
+//but.addEventListener('click', myFunction);
+/*function myFunction(){
 	var text;
 	if(0<=number.value && number.value <=10){
 text="entered value ok!";
@@ -107,35 +107,41 @@ result.innerHTML=Number(newVariable) + 100; //the ans shd be 300
 //math mehtods
 var highInteger=Math.ceil(4.2);//5
 result.innerHTML=highInteger;
-  result.innerHTML=Math.floor(4.8); //4
-
+  result.innerHTML=Math.floor(8.8); //4
+//result.innerHTML="hi";
+//result.innerHTML="here";
   //array 
   motor=["hero",
   "bajaj",
   "tata",
   34 //different data type 
   ];
-  result.innerHTML=motor[1];  //accessing 2nd element from array
-  result.innerHTML=motor[3] + 50; //accessing diff data type
+ // result.innerHTML="here";
+//  result.innerHTML=motor[1];  //accessing 2nd element from array
+ // result.innerHTML=motor[3] + 50; //accessing diff data type
 //adding elemnts to array
 motor.push("yamaha").
 //now accessing it
 //result.innerHTML=motor[4]; //
-
+result.innerHTML="here";
 //looping through the array and printing elements in bullet
 
 // loop through an array
 //not working some modification needed
 //new array inserted inside function
+//result.innerHTML="hi";
+
+//but.addEventListener("click", myFunction4); */
+myFunction4();
 function myFunction4(){
+	result.innerHTML="here";
 var i;
 var carTwo=["zen", "800", "car1", "acar"]
-	var text="<ul>";
+	var text2="<ul>";
 for(i=0; i<carTwo.length;i++){
-	text=text+"<li>"+carTwo[i]+ "</li>";
+	text2=text2+"<li>"+carTwo[i]+ "</li>";
 	//
 }
-text+="</ul>";
-result.innerHTML=text;
+text2+="</ul>";
+result.innerHTML=text2;
 }
-but.addEventListener("click", myFunction4);
