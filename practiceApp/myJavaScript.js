@@ -126,6 +126,7 @@ motor.push("yamaha").
 
 // loop through an array
 //not working some modification needed
+//new array inserted inside function
 function myFunction4(){
 var i;
 var carTwo=["zen", "800", "car1", "acar"]
