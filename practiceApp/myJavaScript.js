@@ -125,14 +125,16 @@ motor.push("yamaha").
 //looping through the array and printing elements in bullet
 
 // loop through an array
-myFunction4();
+
 function myFunction4(){
 var i;
+var carTwo=["zen", "800", "car1", "acar"]
 	var text="<ul>";
-for(i=0; i<motor.length;i++){
-	text=text+"<li>"+motor[i]+ "</li>";
+for(i=0; i<carTwo.length;i++){
+	text=text+"<li>"+carTwo[i]+ "</li>";
 	//
 }
 text+="</ul>";
 result.innerHTML=text;
 }
+but.addEventListener("click", myFunction4);
