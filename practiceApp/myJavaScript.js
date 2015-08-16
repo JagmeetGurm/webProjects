@@ -125,7 +125,7 @@ motor.push("yamaha").
 //looping through the array and printing elements in bullet
 
 // loop through an array
-
+//not working some modification needed
 function myFunction4(){
 var i;
 var carTwo=["zen", "800", "car1", "acar"]
