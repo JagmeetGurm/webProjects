@@ -108,3 +108,25 @@ result.innerHTML=Number(newVariable) + 100; //the ans shd be 300
 var highInteger=Math.ceil(4.2);//5
 result.innerHTML=highInteger;
   result.innerHTML=Math.floor(4.8); //4
+
+  //array 
+  var motor=["hero",
+  "bajaj",
+  "tata",
+  34 //different data type 
+  ];
+  result.innerHTML=motor[1];  //accessing 2nd element from array
+  result.innerHTML=motor[3] + 50; //accessing diff data type
+//adding elemnts to array
+motor.push("yamaha").
+//now accessing it
+result.innerHTML=motor[4]; //
+
+//looping through the array and printing elements in bullet
+
+// loop through an array
+
+for(i=0; i<motor.length;i++){
+	text=text+motor[i];
+	//result.innerHTML=text;
+}
