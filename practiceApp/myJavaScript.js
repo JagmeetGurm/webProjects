@@ -219,4 +219,22 @@ function hoistingCheck(){
 	result.innerHTML=x +" " + y; //y will be undefined because it is initialized below after using
 	var y=7;
 }
-//hoistingCheck(); //first defining and then calling
+//hoistingCheck(); //first defining and then callingy1
+//avoid using new() for declaring new object
+//instead do this
+var y1=""; //new primitive string
+var y2=0; //new primitive number
+var y3=false; //new primitive boolean
+var y4={}; //new  object
+var y5=[]; //new array
+var y6=/()/; // new regexp object
+var y7=function(){}; //new function object
+
+function truck(n, m){
+	var name1, model1;
+	name1=n;
+	model1=m;
+
+}
+var t1= new truck("jim", 1989);
+result.innerHTML=t1.model1; //shd print jim
