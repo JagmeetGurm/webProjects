@@ -196,3 +196,17 @@ for(x2 in names){
 	txt+=names[x2]+ " ";
 }
 result.innerHTML=txt;
+var scooter=["bajaj", "vespa", "onda"];
+//code block
+var txt3=" ";
+list:{
+	
+	txt3+=scooter[0]+ "<br>";
+	txt3+=scooter[1]+ "<br>";
+	break list;
+	txt3+=scooter[2] + "<br>";
+
+
+}
+//txt3="</br>";
+result.innerHTML=txt3;
