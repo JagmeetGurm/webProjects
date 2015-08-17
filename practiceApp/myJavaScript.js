@@ -188,4 +188,11 @@ else if(time<18){
 
 result.innerHTML=greet;
 }
-
+//looping through object properties
+var txt=" ";
+var x2;
+var names={first: "jagmeet", last: "gurm", middle: "singh", aka: "jsg"};
+for(x2 in names){
+	txt+=names[x2]+ " ";
+}
+result.innerHTML=txt;
