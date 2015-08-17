@@ -171,3 +171,21 @@ var nums=[3,6,2,1,9];
 nums.sort(function(a, b){return (a-b);});
 result.innerHTML=nums;
 
+//if else statement
+
+//greeeting function
+var time=12;
+greeting();
+function greeting(){
+if(time<10){
+	greet="good morning";
+}
+else if(time<18){
+	greet="good afternoon";
+}
+	else 
+		greet="good evening";
+
+result.innerHTML=greet;
+}
+
