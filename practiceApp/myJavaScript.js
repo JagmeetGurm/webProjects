@@ -212,9 +212,11 @@ list:{
 result.innerHTML=txt3;
 
 //defining and then calling function
+//calling first and then defining
+hoistingCheck();
 function hoistingCheck(){
 	var x=5;
 	result.innerHTML=x +" " + y; //y will be undefined because it is initialized below after using
 	var y=7;
 }
-hoistingCheck(); //first defining and then calling
+//hoistingCheck(); //first defining and then calling
