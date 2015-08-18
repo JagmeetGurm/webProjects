@@ -230,11 +230,37 @@ var y5=[]; //new array
 var y6=/()/; // new regexp object
 var y7=function(){}; //new function object
 
+
 function truck(n, m){
-	var name1, model1;
-	name1=n;
-	model1=m;
+	//var name1, model1;
+	this.name1=n;
+	this.model1=m;
 
 }
 var t1= new truck("jim", 1989);
 result.innerHTML=t1.model1; //shd print jim
+
+
+//== converts data type  but === doesnot 
+//so, 1=="1" is true but 1==="1" is false
+
+//different ways fo creating object
+//1. using object literal, the easiest way
+var laptop={name: "asus", model: "tiachi"};
+//only one can be created
+
+//2. using new 
+var laptop2=new Object();
+laptop2.name4="h";
+laptop2.model="t100";
+
+//3. usng object constructor
+//object constructor fun tion, very similar to OO c++
+function laptop3(n, m){
+	this.name4=n;
+	this.model=m;
+
+}
+var l1=new laptop3("ace", "n series");
+var l2=new laptop3("to", "z");
+result.innerHTML=l1.name4;
