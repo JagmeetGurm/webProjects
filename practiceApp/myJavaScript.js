@@ -276,3 +276,7 @@ result.innerHTML=z1.name30;
 //properties can be added to object even after it is declared
 z1.phone=3554;
 result.innerHTML=z2.phone;
+
+//deleting a property
+delete z1.age; //this will delete object age property
+
