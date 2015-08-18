@@ -264,3 +264,11 @@ function laptop3(n, m){
 var l1=new laptop3("ace", "n series");
 var l2=new laptop3("to", "z");
 result.innerHTML=l1.name4;
+
+//Javascript objects are mutable: they are addressed by referenced
+//not by value 
+var z1= {name30: "jim", age: 26};
+var z2=z1;
+//now z2 also points to the same object as z1
+z2.name30="harry"; //name of z1 will also get changed 
+result.innerHTML=z1.name30;
