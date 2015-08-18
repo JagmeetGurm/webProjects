@@ -280,3 +280,17 @@ result.innerHTML=z2.phone;
 //deleting a property
 delete z1.age; //this will delete object age property
 
+//object constructor with function
+
+function myName(f, l) {
+	this.first=f;
+	this.last=l;
+	this.fullName = function (){
+		return this.first + " " + this.last;
+	}
+
+}
+
+//creating object of myName
+var jag= new myName("jim", "gurm");
+result.innerHTML=jag.fullName(); //calling function()
