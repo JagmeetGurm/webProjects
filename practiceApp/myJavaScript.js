@@ -272,3 +272,7 @@ var z2=z1;
 //now z2 also points to the same object as z1
 z2.name30="harry"; //name of z1 will also get changed 
 result.innerHTML=z1.name30;
+
+//properties can be added to object even after it is declared
+z1.phone=3554;
+result.innerHTML=z2.phone;
