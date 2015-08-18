@@ -287,10 +287,19 @@ function myName(f, l) {
 	this.last=l;
 	this.fullName = function (){
 		return this.first + " " + this.last;
-	}
+	};
 
 }
 
 //creating object of myName
 var jag= new myName("jim", "gurm");
 result.innerHTML=jag.fullName(); //calling function()
+
+//function as an expresssion
+var exp=function(a,b) {
+	return a * b;
+}
+
+//calling function
+result.innerHTML=exp(4,5); //shd be 20
+ 
