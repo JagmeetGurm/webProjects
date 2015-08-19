@@ -307,4 +307,6 @@ result.innerHTML=exp(4,5); //shd be 20
 var paper=new Raphael(document.querySelector("#canvasContainer"));
 // Creates circle at x = 50, y = 40, with radius 10
 var circleOne = paper.circle(50, 40, 10);
-var circlTwo = paper.circle(100, 40, 10); //created another circle
+var circlTwo = paper.circle(120, 40, 10); //created another circle
+//drawing a straight line
+var line= paper.path("M50,40 L120,40");
