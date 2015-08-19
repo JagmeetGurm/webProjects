@@ -298,8 +298,12 @@ result.innerHTML=jag.fullName(); //calling function()
 //function as an expresssion
 var exp=function(a,b) {
 	return a * b;
-}
+};
 
 //calling function
 result.innerHTML=exp(4,5); //shd be 20
- 
+
+var paper = Raphael(10, 50, 320, 200);
+
+// Creates circle at x = 50, y = 40, with radius 10
+var circle = paper.circle(50, 40, 10);
