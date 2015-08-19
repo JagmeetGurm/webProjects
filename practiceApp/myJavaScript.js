@@ -309,4 +309,6 @@ var paper=new Raphael(document.querySelector("#canvasContainer"), 500, 500);
 var circleOne = paper.circle(50, 40, 10);
 var circlTwo = paper.circle(120, 40, 10); //created another circle
 //drawing a straight line
-var line= paper.path("M50,40 L120,40");
+var line= paper.path("M50,40 L110,40");
+line.attr({'arrow-end': 'classic-wide-long'});
+//added arrow to line
