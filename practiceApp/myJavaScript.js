@@ -304,7 +304,7 @@ var exp=function(a,b) {
 result.innerHTML=exp(4,5); //shd be 20
 
 //var paper = Raphael(10, 50, 320, 200);
-var paper=new Raphael(document.querySelector("#canvasContainer"));
+var paper=new Raphael(document.querySelector("#canvasContainer"), 500, 500);
 // Creates circle at x = 50, y = 40, with radius 10
 var circleOne = paper.circle(50, 40, 10);
 var circlTwo = paper.circle(120, 40, 10); //created another circle
