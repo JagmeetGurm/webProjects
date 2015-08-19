@@ -312,3 +312,7 @@ var circlTwo = paper.circle(120, 40, 10); //created another circle
 var line= paper.path("M50,40 L110,40");
 line.attr({'arrow-end': 'classic-wide-long'});
 //added arrow to line
+//
+//added label to nodes
+var txt1= paper.text(50, 40, "0");
+var txt2 =paper.text(120, 40, "1");
