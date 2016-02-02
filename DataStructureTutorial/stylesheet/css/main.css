@@ -1,0 +1,106 @@
+.tutorial-container{
+  padding: 10px 16px;
+  overflow: hidden;
+ color:green;
+  float:center;
+  display:block;
+  background-color: 555 ;
+}
+body{
+background-color: #fff;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #220;
+  position: fixed;
+    top: 0;
+  width: 100%;
+}
+
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  font-size: 18px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+}
+
+.active {
+    background-color: blue;
+}
+
+.vertical{
+  margin-top:64px;
+  padding:0;
+  list-style-type:none;
+ position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; 
+  height:100%;
+   background-color: #320;
+    
+}
+.vertical li a{
+  display: block;
+  width: 150px;
+  background-color: #320;
+  text-decoration: none;
+  padding:10px;
+  color:white;
+  
+  
+}
+.vertical li {
+
+    text-align: center;
+   // border-bottom: 1px solid #555;
+// width: 150px;
+
+}
+#data{
+  color:green;
+  font-size: 22px;
+}
+#d :hover{
+  background-color: #220;
+}
+#rightpane{
+  color: #929292;//	#00008B;
+  background-color: #fff ;
+  margin-top:100px;
+  margin-left: 175px;
+margin-right:0;
+  float:right;
+padding-left:60px;
+padding-right:30px;
+}
+h3{
+color:	#0000FF;
+}
+#quick{
+  color:green;
+  font-size: 22px;
+}
+#quick :hover{
+  background-color: #320;
+}
+p{
+font-size:20px;
+}
+ h2, h3, h4, h5 {
+    font-family: 'Oswald',sans-serif;
+    color: #000;
+    font-weight: 400;
+}
