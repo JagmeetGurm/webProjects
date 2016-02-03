@@ -15,17 +15,7 @@
         <li><a href="linkedList.php">Linked List</a></li>
         <li> <a href="tree.php">Binary Search Tree</a></li>
 <li>
-<!-- Google custom search box Start -by BloggerSentral.com -->
-<div class='cse' style='color:#000000;float:right; margin: 15px 0 5px 300px ;'>
-<form action='http://www.google.com/cse' id='cse-search-box'>
-<input name='cx' type='hidden' value='partner-pub-4409159435154980:sle4z0smh1f'/>
-<input type='text' name='q' size='35' />
-<input name='ie' type='hidden' value='ISO-8859-1'/>
-<input type="submit" name="sa" value="Search" />
-</form>
-<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
-</div>
-<!-- Google custom search box End -->
+
 </li>
       </ul>
       <div class="leftmenu">
