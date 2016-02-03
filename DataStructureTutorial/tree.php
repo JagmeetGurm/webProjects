@@ -15,17 +15,7 @@
         <li><a href="linkedList.php">Linked List</a></li>
         <li> <a href="tree.php">Binary Search Tree</a></li>
 <li>
-<!-- Google custom search box Start -by BloggerSentral.com -->
-<div class='cse' style='color:#000000;float:right; margin: 15px 0 5px 300px ;'>
-<form action='http://www.google.com/cse' id='cse-search-box'>
-<input name='cx' type='hidden' value='partner-pub-4409159435154980:sle4z0smh1f'/>
-<input type='text' name='q' size='35' />
-<input name='ie' type='hidden' value='ISO-8859-1'/>
-<input type="submit" name="sa" value="Search" />
-</form>
-<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
-</div>
-<!-- Google custom search box End -->
+
 </li>
       </ul>
       <div class="leftmenu">
@@ -83,7 +73,6 @@ This means we create a node of integers which also points to the next address. T
 <p>Binary Tree is most useful when the data needs to be represented in hierarchical order. When constructing a binary tree, if an element is less than the value of its parent-node, it is placed on left side of it otherwise right side. size requirement is not known in advance and the data is large. For example, if we dont know before hand how many integers we have, so we can use it. It is also extremely useful when the space is limited and we may not have enough consecutive space. Linked list is extremely useful for insertion and deletion. Just need to readjust the addresses, that is the pointers.  </p>
 <br></br>
 <h3 id="disadvantage">Disadvantage</h3>
-<p>The search operation is very because we have to start at the root and traverse the list till we find the target element. Also, for insertion and deletion we have to first traverse to that location and then perform operation. The search operation is very expensive because we have to start at the front and traverse the list till we find the target element.</p>
 <br></br>
 <h3 id="timecomplexity">TIME COMPLEXITY</h3>
 <p>The search operation has time complexity of O(lgn). The insert, delete operations have O(1), where n is the number of elements in the list. The search operation has  time complexity of O(n). The insert, delete operations have O(1), where n is the number of elements in the list.  </p>
