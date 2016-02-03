@@ -15,17 +15,7 @@
         <li><a href="linkedList.php">Linked List</a></li>
         <li> <a href="tree.php">Binary Search Tree</a></li>
 <li>
-<!-- Google custom search box Start -by BloggerSentral.com -->
-<div class='cse' style='color:#000000;float:right; margin: 15px 0 5px 300px ;'>
-<form action='http://www.google.com/cse' id='cse-search-box'>
-<input name='cx' type='hidden' value='partner-pub-4409159435154980:sle4z0smh1f'/>
-<input type='text' name='q' size='35' />
-<input name='ie' type='hidden' value='ISO-8859-1'/>
-<input type="submit" name="sa" value="Search" />
-</form>
-<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
-</div>
-<!-- Google custom search box End -->
+
 </li>
       </ul>
       <div class="leftmenu">
@@ -81,16 +71,9 @@ This means we create a node of integers which also points to the next address. T
 <br></br>
 <h3 id="advantage">Advantage </h3> 
 <p>Linked list is extremely useful for insertion and deletion. Just need to readjust the addresses, that is the pointers.  </p>
-<p>Linked lists are a dynamic data structure, allocating the needed memory while the program is running.
-Insertion and deletion node operations are easily implemented in a linked list.
-Linear data structures such as stacks and queues are easily executed with a linked list.
-They can reduce access time and may expand in real time without memory overhead.</p><br></br>
+<br></br>
 <h3 id="disadvantage">Disadvantage</h3>
 <p>The search operation is very expensive because we have to start at the front and traverse the list till we find the target element.</p>
-<p>They have a tendency to use more memory due to pointers requiring extra storage space.
-Nodes in a linked list must be read in order from the beginning as linked lists are inherently sequential access.
-Nodes are stored incontiguously, greatly increasing the time required to access individual elements within the list.
-Difficulties arise in linked lists when it comes to reverse traversing. For instance, singly linked lists are cumbersome to navigate backwards[1] and while doubly linked lists are somewhat easier to read, memory is wasted in allocating space for a back pointer.</p><br></br>
 <h3 id="timecomplexity">TIME COMPLEXITY</h3>
 <p>The search operation has  time complexity of O(n). The insert, delete operations have O(1), where n is the number of elements in the list.  </p>
 </div>
