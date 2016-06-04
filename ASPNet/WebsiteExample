@@ -18,7 +18,7 @@ public partial class _Default : System.Web.UI.Page
     }
 //function when button is clicked
     protected void Button1_Click(object sender, EventArgs e)
-    {
+    { //temp is assigned the text value of textbox whose name is textbox1 
         String temp = TextBox1.Text;
         Label1.Text = temp;
 
