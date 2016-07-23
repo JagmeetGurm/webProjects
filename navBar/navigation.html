@@ -10,16 +10,38 @@ ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	width: 60px;
+	/*width: 200px; */
 	background: #ffe6e6;
+	border: 1px solid #555;
+	/*height: 100%; */
+	position: fixed; /* will be fixed if content on page demands scrolling */
+	/*width: 25%; */
+	overflow: auto; /* enable scrolling of side navBar*/
 }
-li a{
+li{
+	float: left;
+	border: 1px solid black;
+}
+ li a{
 	display: block;
 	color:#000;
 	text-decoration: none;
-	padding: 0px 8px;
+	padding: 8px 16px;
 /*	width: 60px; */
 
+}
+/*color of link will change when arrow is hovered over */
+li a:hover:not(.active){
+	background: #ff4d4d;
+	color:white;
+}
+li a.active{
+	background: #ff1a1a;
+	color: white;
+}
+div{
+	margin-left: 25%;
+	padding: 1px 16px;
 }
 </style>
 </head>
@@ -31,5 +53,16 @@ li a{
 <li><a href="#contact">Contact</a></li>
 
 </ul>
+<div>
+<h1>HI there, this fixed nav bar at left</h1>
+<p> some text...</p>
+<p> some text...</p>
+<p> some text...</p>
+<p> some text...</p>
+<p> some text...</p>
+<p> some text...</p>
+<p> some text...</p>
+<p> some text...</p>
+</div>
 </body>
 </html>
